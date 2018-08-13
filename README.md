@@ -3,7 +3,7 @@
 Encapsulate a Class into a chain, then run what you want.
 
 ```
-$you = new WeirdChain(new Stuff())
+$you = new WeirdChain(new Stuff());
 $result = $you
 	->can()
 	->do($something)
